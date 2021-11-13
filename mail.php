@@ -6,12 +6,12 @@ $email= $_POST['emailaddress'];
 $message= $_POST['message'];
 
 
-$to = "ggpro7351@gmail.com";
+$to = "wayir34572@incoware.com";
 $subject = "Mail From website";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
 
 
-$headers = "From: noreply@https://n0namr3.github.io/No-Name/" . "\r\n" .
+$headers = "From: noreply@yoursite.com" . "\r\n" .
 "CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
