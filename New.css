@@ -13,6 +13,9 @@
     background: #fff;
     color: black;
 }
+html {
+    scroll-behavior: smooth;
+}
 .navbar{
     background: var(--black);
     height: 60px;
