@@ -57,7 +57,7 @@ html {
 
 @media screen and (max-width: 768px){
     body.active{
-        overflow-y: hidden;
+        overflow-y: scroll;
         overflow-x: hidden;
     }
     .navbar__link {
@@ -523,7 +523,6 @@ form {
     font-size: 14px;
     margin-bottom: 16px;
     cursor: context-menu;
-    text-decoration: underline;
     text-decoration-color: rgb(255, 255, 255);
     text-underline-offset: 0.4em;
 }
